@@ -27,8 +27,14 @@ const DoubleLetter = observer(() => {
 const Wrapper = styled.section`
   background: white;
   padding: 1.2rem 1.4rem;
-  height: 400px;
 
+  @media screen and (min-width: 800px) {
+  height: 400px;
+  }
+
+  @media screen and (max-width: 768px) {
+    height: 20%;
+  }
   
 `
 

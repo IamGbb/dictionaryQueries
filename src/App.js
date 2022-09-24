@@ -74,6 +74,7 @@ const Wrapper = styled.div`
 @media screen and (max-width: 768px) {
   
 .title {
+  margin-top: 20px;
   text-align: center;
 
 }
@@ -81,6 +82,7 @@ const Wrapper = styled.div`
 .pies {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
+  gap: 50px;
   padding: 50px;
 }
 
@@ -92,6 +94,7 @@ margin-bottom: 10px;
  display: grid;
 grid-template-rows: 1fr 1fr;
   padding: 50px;
+  gap: 50px;
 }
 
 .bottomGraph * {

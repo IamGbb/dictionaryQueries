@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { useWords } from '../WordsContext'
 import { observer } from "mobx-react-lite";
 import styled from '@emotion/styled'
